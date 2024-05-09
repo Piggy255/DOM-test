@@ -1,0 +1,83 @@
+body,html{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#remover{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#input{
+    width: 400px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid 2px black
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+    width: 1100px;
+    margin: auto;
+}
+
+li{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    border: solid 4px black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    font-weight: bold;
+}
+
+.checkbox{
+    position: absolute;
+    left: 10px;
+}
+
+.done{
+    opacity: 0.5;
+}
+
+.counters{
+    margin-top: 10px;
+}
+
+button{
+    background-color: transparent;
+    border: solid 2px black;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(1);
+    transition: 0.1s ease;
+}
+
+.checkbox{
+    width: 40px;
+    height: 40px;
+}
